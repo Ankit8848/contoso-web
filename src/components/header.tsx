@@ -30,6 +30,9 @@ export const Header = async ({
       </div>
       <div className="grow">&nbsp;</div>
       <div className="flex flex-row items-center gap-3">
+        <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1 rounded-md text-sm font-medium transition-colors">
+          Sign Up
+        </button>
         <div>
           <div className="text-right font-semibold text-zinc-600">
             {user.name}
@@ -44,6 +47,7 @@ export const Header = async ({
             alt={user.name}
             className="rounded-full"
           />
+          
         </div>
       </div>
     </Block>

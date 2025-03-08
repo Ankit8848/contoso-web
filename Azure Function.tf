@@ -1,0 +1,1 @@
+Write a Terraform config for chat.tsx
